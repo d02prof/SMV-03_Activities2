@@ -12,7 +12,6 @@
 //TODO Da se na prejšnjem aktivitiju ohranijo podatki, moramo za parent izbrati isto aktivnost (ne tiste na katero se vračamo, ampak tisto iz katere se vračamo
 
 
-
 //TODO Intent intent = new Intent(getApplicationContext(), Activity2.class);  this namesto getApplicationContext() NE DELUJE, lahko pa tudi MainActivity.this, ki DELUJE
 
 //TODO  s @color se skličeš na barve, definirane v res/values/colors.xml
