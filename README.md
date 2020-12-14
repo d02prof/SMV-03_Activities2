@@ -1,4 +1,4 @@
-# SMV-02_Activities_1
+# SMV-03_Activities2
 1. Odpre drug Activity brez prenosa parametrov iz prvega.
 
 2. Prenos parametrov na drug activity, puščica za nazaj, zaganjanje poljubnega activityja
