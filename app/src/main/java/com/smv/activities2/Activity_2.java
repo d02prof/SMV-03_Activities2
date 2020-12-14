@@ -15,7 +15,28 @@ public class Activity_2 extends AppCompatActivity
     Button buttonOpenActivity3;
     EditText text, number;
 
-    public View.OnClickListener OpenActivity3_OnClickLIstener = new View.OnClickListener()
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_2);
+        setTitle("Activities2 - Activity 2");
+
+        buttonOpenActivity3 = findViewById(R.id.buttonOpenActivity3);
+        text = findViewById(R.id.editTextText);
+        number = findViewById(R.id.editTextNumber);
+
+        buttonOpenActivity3.setOnClickListener(OpenActivity3_OnClickListener);
+    }
+
+    //del za vračanje rezultata v prejšnji aktivnost
+
+    //v OnCLickListenerju, ki odpre naslednjo aktivnost moramo aktivnost odpreti drugače
+        //odpremo Activity tako, da pričakujemo rezultat
+        //ker bi lahko odpirali več aktivnosti, moramo vedeti, kateri rezultat bomo dobili nazaj,
+        //zato rabimo reguestCode
+        // namesto startActivity(intent); uporabimo  startActivityForResult(intent, 1);
+    public View.OnClickListener OpenActivity3_OnClickListener = new View.OnClickListener()
     {
         @Override
         public void onClick(View v)
@@ -46,32 +67,9 @@ public class Activity_2 extends AppCompatActivity
         }
     };
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_2);
-        setTitle("Activities2 - Activity 2");
-
-        buttonOpenActivity3 = findViewById(R.id.buttonOpenActivity3);
-        text = findViewById(R.id.editTextText);
-        number = findViewById(R.id.editTextNumber);
-
-        buttonOpenActivity3.setOnClickListener(OpenActivity3_OnClickLIstener);
-    }
-
-    //del za vračanje rezultata v prejšnji aktivnost
-
-    //v OnCLickListenerju, ki odpre naslednjo aktivnost moramo aktivnost odpreti drugače
-        //odpremo Activity tako, da pričakujemo rezultat
-        //ker bi lahko odpirali več aktivnosti, moramo vedeti, kateri rezultat bomo dobili nazaj,
-        //zato rabimo reguestCode
-        // namesto startActivity(intent); uporabimo  startActivityForResult(intent, 1);
 
     //metoda, ki se izvede, ko se v aktivnost vrne rezultat
     //začnemo tipkati in jo izberemo, ali pa pritisnemo Ctrl+o (override) in jo izberemo
-
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data)
     {
