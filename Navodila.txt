@@ -1,0 +1,37 @@
+//TODO  Navodila: Youtube / Code in Flow /
+
+//TODO  Send Data Back from Child Activity with startActivityForResult (https://www.youtube.com/watch?v=AD5qt7xoUU8)
+
+//TODO  How to Open a New Activity and Pass Variables to It (https://www.youtube.com/watch?v=eL69kj-_Wvs)
+
+//TODO  How to Make a Button Open a New Activity (https://www.youtube.com/watch?v=bgIUdb-7Rqo)
+
+//TODO Da lahko direktno poženemo neko aktivnost, je treba v manifest v njen <activity> dodati android:exported="true", potem pa lahko v Run / Edit configurations izberemo to aktivnost
+
+//TODO Da lahko iz neke aktivnosti pridemo nazaj v prejšnjo s puščico levo zgoraj (ActionBar), je treba v manifest v njen <activity> dodati android:parentActivityName=".ImeStarševkegaAktivitija"
+//TODO Da se na prejšnjem aktivitiju ohranijo podatki, moramo za parent izbrati isto aktivnost (ne tiste na katero se vračamo, ampak tisto iz katere se vračamo
+
+
+
+//TODO Intent intent = new Intent(getApplicationContext(), Activity2.class);  this namesto getApplicationContext() NE DELUJE, lahko pa tudi MainActivity.this, ki DELUJE
+
+//TODO  s @color se skličeš na barve, definirane v res/values/colors.xml
+//TODO za barve iz teme (v res/values/themes/themes.xml in za dark teme v themes.xml(night)) uporabiš ?attr/
+//TODO za rgb uporabiš #RGB
+//TODO za spremebo barve stausne vrstice v themes: <item name="android:statusBarColor" tools:targetApi="l">@color/dark_green</item>
+
+//TODO setTitle("Activity 2"); nam nastavi naslovno vrstico v aktivitiju
+
+
+//TODO popravljanje imena aplikacije in projekta
+//TODO 1. preimenuj mapo v raziskovalcu
+//TODO 2. v settings.gradle popravi ime, sinhroniziraj
+//TODO 3. popravi v strings.xml
+//TODO 4. popravi v manifestu (label lahko na roko, temo daj refactor in uporabi kar All places ne samo Project files)
+//TODO 5. clean project (je nujno?)
+
+//TODO preimenovanje zadnjega dela imena paketa (npr. com.nekaj.ime1 v com.nekaj.ime2)
+//TODO 1. razpri razdelek java, desni klik na ime projekta / refactor (uporabi kar All places ne samo Project files)
+//TODO 2. clean project (je nujno?)
+//TODO preimenovanje poljubnega dela imena paketa: https://www.youtube.com/watch?v=D6o9RvWw4wk
+
