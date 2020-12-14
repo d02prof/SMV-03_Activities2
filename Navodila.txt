@@ -31,7 +31,7 @@
 //TODO 5. clean project (je nujno?)
 
 //TODO preimenovanje zadnjega dela imena paketa (npr. com.nekaj.ime1 v com.nekaj.ime2)
-//TODO 1. razpri razdelek java, desni klik na ime projekta / refactor (uporabi kar All places ne samo Project files)
+//TODO 1. razpri razdelek java, desni klik na ime projekta / refactor / rename / Rename Project (uporabi kar All places ne samo Project files)
 //TODO 2. clean project (je nujno?)
 //TODO preimenovanje poljubnega dela imena paketa: https://www.youtube.com/watch?v=D6o9RvWw4wk
 

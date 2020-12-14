@@ -29,7 +29,7 @@ public class Activity_2 extends AppCompatActivity
         buttonOpenActivity3.setOnClickListener(OpenActivity3_OnClickListener);
     }
 
-    //del za vračanje rezultata v prejšnji aktivnost
+    //del za vračanje rezultata v prejšnjo aktivnost
 
     //v OnCLickListenerju, ki odpre naslednjo aktivnost moramo aktivnost odpreti drugače
         //odpremo Activity tako, da pričakujemo rezultat
