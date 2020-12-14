@@ -23,15 +23,4 @@
 //TODO setTitle("Activity 2"); nam nastavi naslovno vrstico v aktivitiju
 
 
-//TODO popravljanje imena aplikacije in projekta
-//TODO 1. preimenuj mapo v raziskovalcu
-//TODO 2. v settings.gradle popravi ime, sinhroniziraj
-//TODO 3. popravi v strings.xml
-//TODO 4. popravi v manifestu (label lahko na roko, temo daj refactor in uporabi kar All places ne samo Project files)
-//TODO 5. clean project (je nujno?)
-
-//TODO preimenovanje zadnjega dela imena paketa (npr. com.nekaj.ime1 v com.nekaj.ime2)
-//TODO 1. razpri razdelek java, desni klik na ime projekta / refactor (uporabi kar All places ne samo Project files)
-//TODO 2. clean project (je nujno?)
-//TODO preimenovanje poljubnega dela imena paketa: https://www.youtube.com/watch?v=D6o9RvWw4wk
 
