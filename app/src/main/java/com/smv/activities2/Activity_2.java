@@ -53,7 +53,7 @@ public class Activity_2 extends AppCompatActivity
                 //sicer EditView dovoljuje le številke, a do izjeme pride tudi, če je prazen
                 numberRead = -1;
             }
-            Intent intent = new Intent(getApplicationContext(), Activity_3.class);
+            Intent intent = new Intent(Activity_2.this, Activity_3.class);
             intent.putExtra("EXTRA_STRING", textRead);
             intent.putExtra("EXTRA_NUMBER", numberRead);
             //startActivity(intent);
@@ -78,7 +78,8 @@ public class Activity_2 extends AppCompatActivity
         //ko smo poklicali Activity3, smo za requestCode posredovali vrednost 1, ki jo dobimo tudi nazaj
         if (requestCode == 1){
             //če je uporabnik uporabil katerega od gumbov za izračun in imamo rezultat
-            if (resultCode == RESULT_OK){
+            if (resultCode == RESULT_OK)
+            {
                 int result = data.getIntExtra("RESULT",0);
                 Toast.makeText(this, "The result is " + result, Toast.LENGTH_LONG).show();
             }

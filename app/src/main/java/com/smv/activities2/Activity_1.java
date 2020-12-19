@@ -25,7 +25,7 @@ public class Activity_1 extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(getApplicationContext(), Activity_2.class);
+                Intent intent = new Intent(Activity_1.this, Activity_2.class);
                 startActivity(intent);
             }
         });
