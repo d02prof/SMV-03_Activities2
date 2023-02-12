@@ -8,4 +8,4 @@ Da lahko direktno poženemo neko aktivnost, je treba v manifest v njen dodati an
 
 Da lahko iz neke aktivnosti pridemo nazaj v prejšnjo s puščico levo zgoraj (ActionBar), je treba v manifest v njen dodati android:parentActivityName=".ImeStarševkegaAktivitija"
 
-3. Prenos parametrov nazaj iz druge v prejšnji aktivnost.
+3. Prenos parametrov nazaj iz druge v prejšnjo aktivnost.
